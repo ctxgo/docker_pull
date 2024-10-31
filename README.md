@@ -35,7 +35,7 @@
   
 ### 3)&emsp;下载Digest格式镜像到tar文件(需要指定 -t 参数)
 ```
-  ./gopull download sha256:c35af3bbcef51a62c8bae5a9a563c6f1b60d7ebaea4cb5a3ccbcc157580ae098 -t redis:custom_tag
+  ./gopull download redis@sha256:c35af3bbcef51a62c8bae5a9a563c6f1b60d7ebaea4cb5a3ccbcc157580ae098 -t redis:custom_tag
 ```
 
 ### 4)&emsp; 导入下载的tar镜像
@@ -55,7 +55,7 @@
 
 ### 6)&emsp;拉取Digest格式镜像到docker(需要指定 -t 参数)
 ```
-  ./gopull pull sha256:c35af3bbcef51a62c8bae5a9a563c6f1b60d7ebaea4cb5a3ccbcc157580ae098 -t redis:custom_tag
+  ./gopull pull redis@sha256:c35af3bbcef51a62c8bae5a9a563c6f1b60d7ebaea4cb5a3ccbcc157580ae098 -t redis:custom_tag
 ```
 
 ### 7)&emsp;推送镜像到镜像仓库
